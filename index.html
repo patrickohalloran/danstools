@@ -2,35 +2,54 @@
 <html>
 
 <head>
-<title>Dan's Tools</title>
-<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
-<style>
-@font-face { font-family: BebasNeue; src: url('bebas_neue/BebasNeue.otf'); }
-</style>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Dan's Tools</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
+	<style>
+	@font-face { font-family: BebasNeue; src: url('bebas_neue/BebasNeue.otf'); }
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+
+	<!--  jQuery 1.7+  -->
+	<script src="assets/js/jquery-1.9.1.js"></script>
+
+	<!-- Include js plugin -->
+	<script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
+
+    <!-- Include js intialization script -->
+    <script src="assets/js/script.js"></script>
+
 </head>
 
 <body>
 
 	<div id="top-container">
 		<div class="content-container">
-			<div id="welcome">Welcome to...</div>
-			<div class="slick-content">
-				<div id="about-content">
-					Welcome to Dan's Tools. Serving San Diego since
-					1980, we have everything from your basic hammer to
-					that hydrolic tool you need to prop up your
-					automobile. Thank you for being awesome customers!
+			<div class="owl-carousel" id="owl-content">
+				<div class="nav-item" id="about-content">
+					We have everything to fill your auto collision
+					repair needs. From your basic hammer to Pneumatic
+					tools, to Frame equipment and more. Thank you for
+					being awesome customers!
 				</div>
-				<div id="main-logo-container"><img id="full-logo"src="img/Final_Logo.png"></div>
-				<div id="contact-content">
+				<div class="nav-item" id="home-content">
+					<div id="welcome">Welcome to...</div>
+					<div id="main-logo-container"><img id="full-logo"src="assets/img/Final_Logo.png"></div>
+				</div>
+				<div class="nav-item" id="contact-content">
 					example@gmail.com
 				</div>
 			</div>
-			
+
 			<div id="nav-options">
 				<div class="nav-items" id="about-us">About Us</div>
-				<div class="nav-items" id="hammer-logo-container"><img id="hammer-logo"src="img/Hammer_Logo.png"></div>
+				<div class="nav-items" id="hammer-logo-container"><img id="hammer-logo"src="assets/img/Hammer_Logo.png"></div>
 				<div class="nav-items" id="contact">Contact</div>
 			</div>
 		</div>
@@ -39,26 +58,29 @@
 	<div id="bottom-container">
 		<div class="content-container">
 			<div id="bottom-title">Need a tool? Let us know!</div>
-			<form>
-				First name:<br>
-				<input type-"text" name="firstname">
-				<br>
-				Last name:<br>
-				<input type-"text" name="lastname">
-				<br>
-				Your email:<br>
-				<input type-"text" name="email">
-				<br>
-				Subject:<br>
-				<input type-"text" name="subject">
-				<br>
-				Message:<br>
-				<textarea type-"text" name="message"></textarea>
-				<br>
-				<input type="button" value="Submit" />
-			</form>
+            <form>
+                First name:<br>
+                <input type-"text" name="firstname">
+                <br>
+                Last name:<br>
+                <input type-"text" name="lastname">
+                <br>
+                Your email:<br>
+                <input type-"text" name="email">
+                <br>
+                Your phone #(so we can call you back):<br>
+                <input type-"text" name="email">
+                <br>
+                Subject:<br>
+                <input type-"text" name="subject">
+                <br>
+                Message:<br>
+                <textarea type-"text" name="message"></textarea>
+                <br>
+                <input type="button" value="Submit" />
+            </form>
 		</div>
-	</div>
+    </div>
 
 </body>
 
