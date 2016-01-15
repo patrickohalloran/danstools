@@ -1,4 +1,4 @@
-<?php
+<?php //got this from a tutorial at: http://www.html-form-guide.com/email-form/php-form-to-email.html
 if(!isset($_POST['firstname']) || !isset($_POST['email']) || !isset($_POST['message']))
 {
   //This page should not be accessed directly. Need to submit the form.
